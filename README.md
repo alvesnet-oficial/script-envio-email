@@ -48,5 +48,14 @@ mailsend-go -info -use gmail
 Observe que "auth" é um comando e recebe os argumentos -user e -pass. "body" também é um comando e aqui tomou -msg como argumento. O comando "corpo" não pode se repetir, se especificado mais de uma vez, será utilizada a última.
 
     mailsend-go.exe -sub "teste" -smtp smtp.gmail.com -port 465 auth -user suporte@alvesnet.com.br -pass xxxxxxx* -from suporte@alvesnet.com.br -to suporte@alvesnet.com.br body -msg "hello" attach -file c:\ScriptBackup\Logs\Terca\Desktop_Bkp.txt
+    
+
+5. PASSO:
+
+https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-help/msgbox-function
+
+https://www.ti-enxame.com/pt/windows/comando-do-windows-cmd.exe-para-exibir-uma-caixa-de-mensagens-com-tempo-limite/1043772657/
+
+mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Message!', 10, 'Title!', 64 );close()"
 
 
