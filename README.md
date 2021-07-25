@@ -37,5 +37,22 @@ mailsend-go -info -smtp smtp.gmail.com -port 587
 
 mailsend-go -info -smtp smtp.gmail.com -port 465 -ssl
 
+# Use as configurações padrão para provedores de e-mail conhecidos
+
+Não se preocupe com as configurações de -smtp, -port e -ssl para provedores de e-mail bem conhecidos. Isso funciona para gmail, yahoo, outlook, gmx, zoho e aol.
+
+mailsend-go -info -use gmail
+
+# Enviado email como uma Mensagem de texto:
+
+Observe que "auth" é um comando e recebe os argumentos -user e -pass. "body" também é um comando e aqui tomou -msg como argumento. O comando "corpo" não pode se repetir, se especificado mais de uma vez, será utilizada a última.
+
+    mailsend-go -sub "Test"  -smtp smtp.gmail.com -port 587 \
+     auth \
+      -user jsnow@gmail.com -pass "secret" \
+     -from "jsnow@gmail.com" -to  "mjane@example.com" \
+     body \
+       -msg "hello, world!\nThis is a message
+
 
 
