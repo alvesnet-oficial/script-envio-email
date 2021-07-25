@@ -14,4 +14,8 @@ iwr -useb get.scoop.sh | iex
 
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
+3. PASSO:
+
+https://github.com/muquit/mailsend-go/releases/tag/v1.0.10
+
 
