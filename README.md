@@ -29,4 +29,10 @@ Send mail to a list of users
 Show SMTP server info
 Fixes issues of mailsend
 
+# Teste de Conexão SMTP:
+
+mailsend-go -info -smtp smtp.gmail.com -port 587
+
+
+
 
