@@ -47,12 +47,6 @@ mailsend-go -info -use gmail
 
 Observe que "auth" é um comando e recebe os argumentos -user e -pass. "body" também é um comando e aqui tomou -msg como argumento. O comando "corpo" não pode se repetir, se especificado mais de uma vez, será utilizada a última.
 
-    mailsend-go -sub "Test"  -smtp smtp.gmail.com -port 587 \
-     auth \
-      -user jsnow@gmail.com -pass "secret" \
-     -from "jsnow@gmail.com" -to  "mjane@example.com" \
-     body \
-       -msg "hello, world!\nThis is a message
-
+    mailsend-go.exe -sub "teste" -smtp smtp.gmail.com -port 465 auth -user suporte@alvesnet.com.br -pass xxxxxxx* -from suporte@alvesnet.com.br -to suporte@alvesnet.com.br body -msg "hello" attach -file c:\ScriptBackup\Logs\Terca\Desktop_Bkp.txt
 
 
