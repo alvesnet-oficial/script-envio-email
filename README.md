@@ -33,6 +33,9 @@ Fixes issues of mailsend
 
 mailsend-go -info -smtp smtp.gmail.com -port 587
 
+# Usando SSL. Nota porta e diferente:
+
+mailsend-go -info -smtp smtp.gmail.com -port 465 -ssl
 
 
 
