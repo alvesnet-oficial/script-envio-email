@@ -18,4 +18,15 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 
 https://github.com/muquit/mailsend-go/releases/tag/v1.0.10
 
+https://github.com/muquit/mailsend-go#downloading-and-installing
+
+Features
+Add a mail body
+Support Multiple Attachments
+Supports ESMTP Authentication
+Supports StartTLS and SSL
+Send mail to a list of users
+Show SMTP server info
+Fixes issues of mailsend
+
 
