@@ -56,6 +56,17 @@ https://docs.microsoft.com/pt-br/office/vba/language/reference/user-interface-he
 
 https://www.ti-enxame.com/pt/windows/comando-do-windows-cmd.exe-para-exibir-uma-caixa-de-mensagens-com-tempo-limite/1043772657/
 
-mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Message!', 10, 'Title!', 64 );close()"
+# 48	Exibe o ícone Mensagem de Aviso:
+
+mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Backup para HD Externo Iniciado!', 10, 'Backup HD Externo!', 48 );close()"
+
+# 64	Exibe o ícone Mensagem Informativa.
+
+mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Backup para HD Externo Concluído!', 10, 'Backup HD Externo!', 64 );close()"
+
+# 16	Exibe o ícone Mensagem Crítica.
+
+mshta "javascript:var sh=new ActiveXObject( 'WScript.Shell' ); sh.Popup( 'Backup para HD Externo Falhou!', 10, 'Backup para HD Externo!', 48 );close()"
+
 
 
